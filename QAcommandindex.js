@@ -10,7 +10,7 @@ const STORE = [
       ],
     correctAnswer: 'D) All of the above',
     icon: 'https://i.imgur.com/G3IuGiC.jpg',
-    alt: 'ant lifting a branch saying you can do this'
+    alt: 'ant lifting a branch saying you can do \this'
   },
   {
     question: '2) Which built-in method returns the character at the specified index?',
@@ -25,7 +25,7 @@ const STORE = [
       alt: 'odler man setting a computer with rooting growing from his feet'
   },
   {
-    question: 'Which built-in method returns the string representation of the number's value?',
+    question: 'Which built-in method returns the string representation of the number value?',
     answers: [
       'A) None of the above.',
       'B) toString()',

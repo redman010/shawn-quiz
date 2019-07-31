@@ -121,8 +121,6 @@ const otherSTORE = [
     alt: 'street sign saying end 22'
     }
   ];
-//////////////////  //////////////////  //////////////////  //////////////////  //////////////////  //////////////////
-///////////// level 1 below  /////  //////////////////  //////////////////  //////////////////  //////////////////  //////////////////  
 const STORE = [
   {
     question: '1) You are trying to use RDP to control a Windows computer from your office to an accountant computer in the corporate office building. What port should be opened in the firewalls between the two locations?',
@@ -248,11 +246,6 @@ const STORE = [
   },
 ];
 
-
-
-
-
-
 let myquestNumber = 0;
 var myScore = 0;
 var totally = 0;
@@ -319,9 +312,6 @@ function changemyScore() {
     console.log(myquestNumber);
     $('.myScore').text(myScore+1);
 }
-
-
-
 //start quiz
 //on startQuizButton click hide start div
 //unhide quiz form div

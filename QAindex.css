@@ -41,27 +41,6 @@ h1 {
 color: red;
 font-style: bold;
 }
-
-
-/* tmk noted for removal
-input {
-  border: 0;
-  padding: 12px;
-  font-size:  16px;
-}
-input[type="submit"] {
-  background: blue;
-  color: white;
-}
-
-
-*/
-.navbar {
-overflow: hidden;
-background-color: rgb(0, 0, 0);
-font-family: Arial;
-}
-
 /* Links inside the navbar */
 .navbar a {
 float: left;
@@ -71,60 +50,6 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
-
-/* The dropdown container */
-.dropdown {
-float: left;
-overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-font-size: 16px; 
-border: none;
-outline: none;
-color: white;
-padding: 14px 16px;
-background-color: inherit;
-font-family: inherit; /* Important for vertical align on mobile phones */
-margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-background-color: red;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-float: none;
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-display: block;
-}
-
 .col-4,
 .col-8 {
     float: left;
@@ -160,14 +85,12 @@ header ul {
     margin-top: 50px
 }
 /*Quiz start screen styling*/
-
 .quizStart {
     display: block;
     text-align: center;
     width: 50%;
     margin-top: 150px;
 }
-/*tmk noted ok*/
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -223,7 +146,7 @@ label:hover, label:focus {
 fieldset {
     border: none;
 }
-/*tmk noted ok*/
+
 input {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -238,11 +161,10 @@ input {
     position: relative;
     top: 2px;
 }
-/*tmk noted ok*/
+
 input:checked {
     border: 8px solid #ebca52;
 }
- /*tmk noted ok*/
 input[type=radio] {
     flex: 0 0 auto;
     margin-right: 10px;
@@ -293,9 +215,6 @@ form button:hover, form button:focus {
     background-image: linear-gradient(to right, red , yellow);
     padding-top: 40px
 }
-
-
-
 .wrongFeedback button {
     width: 100%;
     background-color: black;
@@ -311,11 +230,9 @@ form button:hover, form button:focus {
     margin-left: 20px;
     margin-right: 20px
 }
-/*tmk noted ok*/
 .wrongFeedback .correctFeedback span {
     color: rgb(161, 56, 175);
 }
-/*tmk noted ok*/
 .wrongFeedback img {
     width: 200px;
     height: 200px;
@@ -327,7 +244,6 @@ form button:hover, form button:focus {
     opacity: 0.5;
 filter: alpha(opacity=50); 
 }
-/*tmk noted ok*/
 .correctFeedback img {
     width: 300px;
     height: 300px;
@@ -343,7 +259,6 @@ h3 {
     font-size: 40px;
     margin-bottom: 20px;
 }
-/*tmk noted ok*/
 .results img {
     width: 150px;
     height: auto;
@@ -357,7 +272,6 @@ h3 {
     line-height: 30px;
     margin-bottom: 0
 }
-/*tmk added restartbuttonother*/
 .restartButtonother{
     margin-top: 40px 40px;
     float: right;
@@ -366,8 +280,6 @@ h3 {
     color: ghostwhite;
     text-align: center;
 }
-
-
 .nextotherButton {
     margin-top: 40px 40px;
     margin-left: 40px ;
@@ -409,7 +321,6 @@ h3 {
         margin: 10px;
         text-align: center
     }
-    /*tmk noted ok*/
     h1 {
         font-size: 1.5em
     }
@@ -438,7 +349,6 @@ h3 {
         font-size: 16px;
         padding: 15px
     }
-    /*tmk noted ok*/
     .correctFeedback img {
         width: 100px;
         height: auto

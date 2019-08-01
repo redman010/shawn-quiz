@@ -1,7 +1,7 @@
 
 const STORE = [
   {
-    question: '1) Which of the following is correct about features of JavaScript?,
+    question: '1) Which of the following is correct about features of JavaScript?',
     answers: [
       'A) JavaScript is a lightweight, interpreted programming language.', 
       'B) JavaScript is designed for creating network-centric applications.',
@@ -102,7 +102,7 @@ const STORE = [
       'A) FTP',
       'B) TELNET',
       'C) FTPS',
-      'D) SSH'
+      'D) SSH',
     ],
     correctAnswer: 'C) FTPS',
     icon: 'https://live.staticflickr.com/65535/46947115935_6ae799066a_n.jpg',
@@ -114,7 +114,7 @@ const STORE = [
       'A) Disconnect system from network',
       'B) Interview witnesses',
       'C) Capture system image',
-      'D) Identify user habits'
+      'D) Identify user habits',
   ],
   correctAnswer: 'C) Capture system image',
 
@@ -122,6 +122,7 @@ const STORE = [
   alt: 'street sign saying end 44'
   },
 ];
+
 const otherSTORE = [
   {
     question: '1 How many 8 -bit character does the ASCII standard define',
